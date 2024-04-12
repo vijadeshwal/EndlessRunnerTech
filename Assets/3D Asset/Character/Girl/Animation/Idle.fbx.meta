@@ -1,0 +1,567 @@
+fileFormatVersion: 2
+guid: 0bdee5622688a2b439dfa9fd6b4d6f1c
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'mixamo.com' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'D_girl:D_girl:mixamorig:HeadTop_End' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: mixamo.com
+      takeName: mixamo.com
+      internalID: -203655887218126122
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 6.5
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: Idle(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: D_girl:D_girl:geo
+      parentName: Idle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: D_girl:D_girl:body_LP
+      parentName: D_girl:D_girl:geo
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071069, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: D_girl:D_girl:bow_LP
+      parentName: D_girl:D_girl:geo
+      position: {x: -0, y: 1.2000968, z: 0}
+      rotation: {x: -2.739524e-14, y: 1, z: 0.00000003774895, w: 0.00000019470718}
+      scale: {x: 100, y: 100, z: 100}
+    - name: D_girl:D_girl:coat_LP
+      parentName: D_girl:D_girl:geo
+      position: {x: -0, y: 1.2000968, z: 0}
+      rotation: {x: -2.739524e-14, y: 1, z: 0.00000003774895, w: 0.00000019470718}
+      scale: {x: 100, y: 100, z: 100}
+    - name: D_girl:D_girl:eyeballs_LP
+      parentName: D_girl:D_girl:geo
+      position: {x: -0, y: 1.2000968, z: 0}
+      rotation: {x: -2.739524e-14, y: 1, z: 0.00000003774895, w: 0.00000019470718}
+      scale: {x: 100, y: 100, z: 100}
+    - name: D_girl:D_girl:hair_LP
+      parentName: D_girl:D_girl:geo
+      position: {x: -0, y: 1.2000968, z: 0}
+      rotation: {x: -2.739524e-14, y: 1, z: 0.00000003774895, w: 0.00000019470718}
+      scale: {x: 100, y: 100, z: 100}
+    - name: D_girl:D_girl:shirt_LP
+      parentName: D_girl:D_girl:geo
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071069, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: D_girl:D_girl:shoes_LP
+      parentName: D_girl:D_girl:geo
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071069, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: D_girl:D_girl:skirt_LP
+      parentName: D_girl:D_girl:geo
+      position: {x: -0, y: 1.200095, z: 0}
+      rotation: {x: -2.739524e-14, y: 1, z: 0.00000003774895, w: 0.00000019470718}
+      scale: {x: 100, y: 100, z: 100}
+    - name: D_girl:D_girl:socks_LP
+      parentName: D_girl:D_girl:geo
+      position: {x: -0, y: 1.2000968, z: 0}
+      rotation: {x: -2.739524e-14, y: 1, z: 0.00000003774895, w: 0.00000019470718}
+      scale: {x: 100, y: 100, z: 100}
+    - name: D_girl:D_girl:mixamorig:Hips
+      parentName: Idle(Clone)
+      position: {x: -0.005158417, y: 0.7221915, z: -0.010837987}
+      rotation: {x: -0.00000012642579, y: 0.00953815, z: 0.000000001950156, w: 0.9999545}
+      scale: {x: 1.000001, y: 1, z: 1}
+    - name: cout1
+      parentName: D_girl:D_girl:mixamorig:Hips
+      position: {x: -0.0008462534, y: -0.020799702, z: -0.03312573}
+      rotation: {x: 0.010519134, y: -0.053511083, z: -0.6739359, w: -0.7367743}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000005}
+    - name: cout2
+      parentName: cout1
+      position: {x: -0.14036807, y: -1.3298418e-18, z: 0.005587113}
+      rotation: {x: 0.70708764, y: 0.0051989593, z: 0.005198852, w: -0.70708776}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1}
+    - name: cout3
+      parentName: cout2
+      position: {x: -0.106533244, y: 0, z: 0}
+      rotation: {x: 0.000000029802319, y: -0.000000016298143, z: -0.027674377, w: 0.999617}
+      scale: {x: 1.0000005, y: 1.0000007, z: 1.0000004}
+    - name: cout4
+      parentName: cout3
+      position: {x: -0.08950985, y: 7.216449e-18, z: 1.0996439e-18}
+      rotation: {x: 0.4821817, y: 0.5172048, z: -0.4821817, w: 0.5172048}
+      scale: {x: 1, y: 1, z: 1}
+    - name: D_girl:D_girl:mixamorig:Spine
+      parentName: D_girl:D_girl:mixamorig:Hips
+      position: {x: -7.554721e-18, y: 0.065631725, z: -0.0038702106}
+      rotation: {x: -0.029445857, y: -0.000000036646963, z: -0.0000000016529391, w: 0.9995664}
+      scale: {x: 1.0000013, y: 1.0000012, z: 1.0000011}
+    - name: D_girl:D_girl:mixamorig:Spine1
+      parentName: D_girl:D_girl:mixamorig:Spine
+      position: {x: -0, y: 0.07670329, z: 1.7032367e-10}
+      rotation: {x: -0, y: 3.03654e-10, z: -0.0000000051491496, w: 1}
+      scale: {x: 1.0000027, y: 1.000001, z: 1.0000012}
+    - name: D_girl:D_girl:mixamorig:Spine2
+      parentName: D_girl:D_girl:mixamorig:Spine1
+      position: {x: -0, y: 0.08766096, z: 6.0398325e-11}
+      rotation: {x: 0.00000008940696, y: 0.000000008344343, z: 0.000000014270871,
+        w: 1}
+      scale: {x: 0.99999815, y: 0.99999994, z: 0.9999996}
+    - name: D_girl:D_girl:mixamorig:RightShoulder
+      parentName: D_girl:D_girl:mixamorig:Spine2
+      position: {x: 0.03227725, y: 0.083291456, z: -0.0011496329}
+      rotation: {x: -0.5670842, y: -0.4150484, z: 0.58182824, w: -0.40942186}
+      scale: {x: 1.0000011, y: 1.0000005, z: 1.0000019}
+    - name: D_girl:D_girl:mixamorig:RightArm
+      parentName: D_girl:D_girl:mixamorig:RightShoulder
+      position: {x: 5.1553324e-11, y: 0.07261877, z: 7.2988693e-10}
+      rotation: {x: -0.14134516, y: 0.019166349, z: 0.016416369, w: 0.9896387}
+      scale: {x: 1.0000006, y: 1.0000005, z: 0.99999994}
+    - name: D_girl:D_girl:mixamorig:RightForeArm
+      parentName: D_girl:D_girl:mixamorig:RightArm
+      position: {x: 1.1149634e-10, y: 0.18060297, z: 0.000000005493546}
+      rotation: {x: -0.011602282, y: -0.0019516738, z: -0.022895409, w: -0.99966866}
+      scale: {x: 1.0000006, y: 1.000001, z: 1.0000008}
+    - name: D_girl:D_girl:mixamorig:RightHand
+      parentName: D_girl:D_girl:mixamorig:RightForeArm
+      position: {x: -9.034209e-11, y: 0.16192868, z: 0.0000000010404684}
+      rotation: {x: 0.09127818, y: -0.11298843, z: -0.041275114, w: 0.98853344}
+      scale: {x: 1.0000001, y: 0.9999996, z: 1.0000002}
+    - name: D_girl:D_girl:mixamorig:RightHandIndex1
+      parentName: D_girl:D_girl:mixamorig:RightHand
+      position: {x: -0.024834028, y: 0.07224588, z: 0.0013551753}
+      rotation: {x: 0.029410705, y: 0.00071360153, z: 0.02425077, w: 0.99927294}
+      scale: {x: 1.0000004, y: 1.0000005, z: 1}
+    - name: D_girl:D_girl:mixamorig:RightHandIndex2
+      parentName: D_girl:D_girl:mixamorig:RightHandIndex1
+      position: {x: 0.00005899187, y: 0.019353159, z: 4.7976515e-11}
+      rotation: {x: 0.03978645, y: -0.000019670051, z: -0.0017061293, w: 0.9992068}
+      scale: {x: 1.0000005, y: 1.0000007, z: 1.0000005}
+    - name: D_girl:D_girl:mixamorig:RightHandIndex3
+      parentName: D_girl:D_girl:mixamorig:RightHandIndex2
+      position: {x: -0.00007444603, y: 0.018019898, z: 1.8945316e-11}
+      rotation: {x: -0.041061427, y: 0.000014581472, z: 0.00045600938, w: 0.99915653}
+      scale: {x: 0.9999996, y: 0.9999996, z: 0.9999998}
+    - name: D_girl:D_girl:mixamorig:RightHandIndex4
+      parentName: D_girl:D_girl:mixamorig:RightHandIndex3
+      position: {x: 0.000015453412, y: 0.016621727, z: -3.5069092e-10}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: D_girl:D_girl:mixamorig:RightHandMiddle1
+      parentName: D_girl:D_girl:mixamorig:RightHand
+      position: {x: -0.0049460162, y: 0.072741225, z: -0.004247078}
+      rotation: {x: 0.05290258, y: 0.0011044665, z: 0.022248298, w: 0.9983512}
+      scale: {x: 1.0000005, y: 1.0000007, z: 1.0000001}
+    - name: D_girl:D_girl:mixamorig:RightHandMiddle2
+      parentName: D_girl:D_girl:mixamorig:RightHandMiddle1
+      position: {x: 0.000010321068, y: 0.022010377, z: 3.1029168e-10}
+      rotation: {x: 0.026479641, y: 0.00000022083981, z: 0.0000004497996, w: 0.9996494}
+      scale: {x: 0.9999997, y: 0.9999997, z: 1}
+    - name: D_girl:D_girl:mixamorig:RightHandMiddle3
+      parentName: D_girl:D_girl:mixamorig:RightHandMiddle2
+      position: {x: -0.000039179893, y: 0.020960854, z: 7.779217e-11}
+      rotation: {x: -0.03490196, y: -0.00000019606013, z: -0.00000029702971, w: 0.9993908}
+      scale: {x: 1.0000005, y: 1.0000005, z: 1.0000004}
+    - name: D_girl:D_girl:mixamorig:RightHandMiddle4
+      parentName: D_girl:D_girl:mixamorig:RightHandMiddle3
+      position: {x: 0.000028858736, y: 0.020103358, z: 2.110972e-10}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: D_girl:D_girl:mixamorig:RightHandRing1
+      parentName: D_girl:D_girl:mixamorig:RightHand
+      position: {x: 0.0090346085, y: 0.08140703, z: 0.00022112978}
+      rotation: {x: 0.021017587, y: -0.0028872115, z: -0.030508652, w: 0.99930936}
+      scale: {x: 1.0000006, y: 1.0000008, z: 1.0000002}
+    - name: D_girl:D_girl:mixamorig:RightHandRing2
+      parentName: D_girl:D_girl:mixamorig:RightHandRing1
+      position: {x: -0.000020831263, y: 0.017148403, z: 2.3244184e-11}
+      rotation: {x: 0.02761871, y: -0.00000043259928, z: -0.00000007991911, w: 0.99961853}
+      scale: {x: 0.99999994, y: 0.9999997, z: 1.0000002}
+    - name: D_girl:D_girl:mixamorig:RightHandRing3
+      parentName: D_girl:D_girl:mixamorig:RightHandRing2
+      position: {x: -0.000052086038, y: 0.016073806, z: -6.652002e-11}
+      rotation: {x: 0.037547838, y: 0.000072030016, z: -0.0028314386, w: -0.9992908}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000002}
+    - name: D_girl:D_girl:mixamorig:RightHandRing4
+      parentName: D_girl:D_girl:mixamorig:RightHandRing3
+      position: {x: 0.00007291701, y: 0.0146603035, z: -6.765733e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: D_girl:D_girl:mixamorig:RightHandThumb1
+      parentName: D_girl:D_girl:mixamorig:RightHand
+      position: {x: -0.016450094, y: 0.020690091, z: 0.0090882}
+      rotation: {x: 0.12943104, y: 0.035829134, z: 0.33010155, w: 0.934343}
+      scale: {x: 1.0000007, y: 1.0000004, z: 1.0000005}
+    - name: D_girl:D_girl:mixamorig:RightHandThumb2
+      parentName: D_girl:D_girl:mixamorig:RightHandThumb1
+      position: {x: -0.0009654967, y: 0.022340283, z: -1.923559e-12}
+      rotation: {x: 0.033095356, y: 0.000048123293, z: 0.022864895, w: 0.9991906}
+      scale: {x: 1.0000006, y: 1.0000008, z: 1.0000004}
+    - name: D_girl:D_girl:mixamorig:RightHandThumb3
+      parentName: D_girl:D_girl:mixamorig:RightHandThumb2
+      position: {x: 0.0010409043, y: 0.022637235, z: 1.273218e-10}
+      rotation: {x: -0.036997862, y: -0.0016078673, z: -0.016719187, w: 0.9991742}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000004}
+    - name: D_girl:D_girl:mixamorig:RightHandThumb4
+      parentName: D_girl:D_girl:mixamorig:RightHandThumb3
+      position: {x: -0.00007540518, y: 0.020136366, z: -2.3784932e-10}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: D_girl:D_girl:mixamorig:RightHandPinky1
+      parentName: D_girl:D_girl:mixamorig:RightHand
+      position: {x: 0.020745438, y: 0.062024042, z: -0.0016098216}
+      rotation: {x: 0.03094364, y: -0.015356768, z: -0.014164795, w: 0.9993028}
+      scale: {x: 1.0000005, y: 1.000001, z: 1.0000005}
+    - name: D_girl:D_girl:mixamorig:RightHandPinky2
+      parentName: D_girl:D_girl:mixamorig:RightHandPinky1
+      position: {x: -0.000020337022, y: 0.020246033, z: 1.7114128e-11}
+      rotation: {x: -0.015168274, y: 0.0000002980231, z: -0.000000018626444, w: 0.99988496}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1.0000007}
+    - name: D_girl:D_girl:mixamorig:RightHandPinky3
+      parentName: D_girl:D_girl:mixamorig:RightHandPinky2
+      position: {x: -0.00003122728, y: 0.016601862, z: -4.242106e-11}
+      rotation: {x: 0.039037317, y: 0.000036592093, z: -0.0014766183, w: -0.99923664}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1}
+    - name: D_girl:D_girl:mixamorig:RightHandPinky4
+      parentName: D_girl:D_girl:mixamorig:RightHandPinky3
+      position: {x: 0.00005156419, y: 0.01573745, z: -5.6016736e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: D_girl:D_girl:mixamorig:Neck
+      parentName: D_girl:D_girl:mixamorig:Spine2
+      position: {x: -0, y: 0.098618574, z: -0.000000006189558}
+      rotation: {x: 0.029445887, y: 0.000000018871974, z: -0.000000017791901, w: 0.99956644}
+      scale: {x: 1.0000029, y: 1.0000006, z: 1.0000007}
+    - name: D_girl:D_girl:mixamorig:Head
+      parentName: D_girl:D_girl:mixamorig:Neck
+      position: {x: -7.554721e-18, y: 0.06923551, z: -0.008004548}
+      rotation: {x: -0, y: -0.000000027509842, z: 0.000000018339884, w: 1}
+      scale: {x: 1.000001, y: 1.0000001, z: 0.99999994}
+    - name: D_girl:D_girl:mixamorig:HeadTop_End
+      parentName: D_girl:D_girl:mixamorig:Head
+      position: {x: -1.7251824e-17, y: 0.16072538, z: -0.018581996}
+      rotation: {x: -0.06685095, y: -0.1730696, z: 0.014672364, w: 0.9825287}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hair1
+      parentName: D_girl:D_girl:mixamorig:HeadTop_End
+      position: {x: -0.0025703611, y: -0.030296206, z: -0.019620217}
+      rotation: {x: -0.10742693, y: -0.5761898, z: 0.12187202, w: 0.8010069}
+      scale: {x: 1.0000004, y: 0.99999994, z: 0.99999946}
+    - name: hair2
+      parentName: hair1
+      position: {x: -0.07123408, y: 2.3092638e-16, z: 1.0824674e-17}
+      rotation: {x: 0.000000074505806, y: -0.00000008940697, z: 0.56986165, w: 0.82174075}
+      scale: {x: 0.9999998, y: 1.0000001, z: 1}
+    - name: hair3
+      parentName: hair2
+      position: {x: -0.071550585, y: -1.4432899e-17, z: -6.133982e-17}
+      rotation: {x: -0.99827445, y: -0.058721982, z: 0.00000014694288, w: 0.000000017779358}
+      scale: {x: 0.99999994, y: 0.9999996, z: 0.9999997}
+    - name: hair4
+      parentName: hair3
+      position: {x: -0.071550585, y: -7.2164494e-17, z: 5.412337e-17}
+      rotation: {x: 0.97403336, y: 0.2264048, z: -0.000000075598884, w: 0.000000010698193}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1}
+    - name: hair5
+      parentName: hair4
+      position: {x: -0.08021857, y: 1.1546319e-16, z: -6.4948045e-17}
+      rotation: {x: 0.39128357, y: 0.5889798, z: -0.39128357, w: 0.5889798}
+      scale: {x: 1, y: 1, z: 1}
+    - name: D_girl:D_girl:mixamorig:LeftShoulder
+      parentName: D_girl:D_girl:mixamorig:Spine2
+      position: {x: -0.03227725, y: 0.08326257, z: -0.0006597338}
+      rotation: {x: 0.5686366, y: -0.41638023, z: 0.5802978, w: 0.40808636}
+      scale: {x: 1.0000017, y: 1.0000019, z: 1.0000027}
+    - name: D_girl:D_girl:mixamorig:LeftArm
+      parentName: D_girl:D_girl:mixamorig:LeftShoulder
+      position: {x: -1.4592696e-10, y: 0.072618775, z: 0.0000000029601739}
+      rotation: {x: -0.14214419, y: -0.04103757, z: 0.0064269295, w: 0.9889741}
+      scale: {x: 1, y: 1.0000004, z: 1}
+    - name: D_girl:D_girl:mixamorig:LeftForeArm
+      parentName: D_girl:D_girl:mixamorig:LeftArm
+      position: {x: 5.8197808e-11, y: 0.18059959, z: 0.0000000030229241}
+      rotation: {x: 0.009931397, y: -0.0020573356, z: -0.023703417, w: 0.9996676}
+      scale: {x: 1.0000007, y: 1.0000004, z: 1.0000007}
+    - name: D_girl:D_girl:mixamorig:LeftHand
+      parentName: D_girl:D_girl:mixamorig:LeftForeArm
+      position: {x: 2.876975e-10, y: 0.16188343, z: -9.911756e-10}
+      rotation: {x: -0.09575188, y: -0.14279416, z: -0.03545062, w: -0.98447174}
+      scale: {x: 1, y: 1.0000004, z: 1.0000004}
+    - name: D_girl:D_girl:mixamorig:LeftHandMiddle1
+      parentName: D_girl:D_girl:mixamorig:LeftHand
+      position: {x: 0.006588549, y: 0.06970093, z: -0.003677695}
+      rotation: {x: 0.042446848, y: 0.00193198, z: -0.002887244, w: 0.9990927}
+      scale: {x: 0.99999994, y: 1.0000005, z: 1.0000006}
+    - name: D_girl:D_girl:mixamorig:LeftHandMiddle2
+      parentName: D_girl:D_girl:mixamorig:LeftHandMiddle1
+      position: {x: 0.00000755954, y: 0.022767821, z: 1.6305758e-10}
+      rotation: {x: 0.0050932155, y: -0.000000018742861, z: 8.4401086e-10, w: 0.99998707}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000001}
+    - name: D_girl:D_girl:mixamorig:LeftHandMiddle3
+      parentName: D_girl:D_girl:mixamorig:LeftHandMiddle2
+      position: {x: 0.000009011371, y: 0.021253038, z: 1.9164175e-11}
+      rotation: {x: -0.040143583, y: 0.000005888001, z: -0.00026558083, w: 0.9991939}
+      scale: {x: 1.0000001, y: 1.0000007, z: 1.0000006}
+    - name: D_girl:D_girl:mixamorig:LeftHandMiddle4
+      parentName: D_girl:D_girl:mixamorig:LeftHandMiddle3
+      position: {x: -0.000016571024, y: 0.019852845, z: -2.8283587e-10}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: D_girl:D_girl:mixamorig:LeftHandIndex1
+      parentName: D_girl:D_girl:mixamorig:LeftHand
+      position: {x: 0.023276223, y: 0.06630151, z: 0.0012829681}
+      rotation: {x: 0.056128986, y: -0.0021676715, z: -0.039931912, w: 0.9976224}
+      scale: {x: 0.9999998, y: 1.0000004, z: 1.0000006}
+    - name: D_girl:D_girl:mixamorig:LeftHandIndex2
+      parentName: D_girl:D_girl:mixamorig:LeftHandIndex1
+      position: {x: -0.000003412746, y: 0.020431058, z: 1.9982026e-10}
+      rotation: {x: 0.030439522, y: 0.00000047474163, z: 0.00000006517802, w: 0.99953663}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: D_girl:D_girl:mixamorig:LeftHandIndex3
+      parentName: D_girl:D_girl:mixamorig:LeftHandIndex2
+      position: {x: 0.000014471531, y: 0.019565769, z: 7.2950916e-11}
+      rotation: {x: -0.038355738, y: -0.0000002638461, z: 0.000000046484143, w: 0.9992641}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1.0000002}
+    - name: D_girl:D_girl:mixamorig:LeftHandIndex4
+      parentName: D_girl:D_girl:mixamorig:LeftHandIndex3
+      position: {x: -0.000011058938, y: 0.017884305, z: 4.5760604e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: D_girl:D_girl:mixamorig:LeftHandThumb1
+      parentName: D_girl:D_girl:mixamorig:LeftHand
+      position: {x: 0.015742928, y: 0.020172235, z: 0.009599703}
+      rotation: {x: 0.13255711, y: -0.032911234, z: -0.340551, w: 0.93025297}
+      scale: {x: 1.0000001, y: 1.0000011, z: 1.0000006}
+    - name: D_girl:D_girl:mixamorig:LeftHandThumb2
+      parentName: D_girl:D_girl:mixamorig:LeftHandThumb1
+      position: {x: 0.0008734982, y: 0.021846294, z: 1.11210685e-11}
+      rotation: {x: 0.03436123, y: -0.000049242728, z: -0.021875955, w: 0.99917}
+      scale: {x: 1.0000001, y: 0.9999998, z: 1.0000002}
+    - name: D_girl:D_girl:mixamorig:LeftHandThumb3
+      parentName: D_girl:D_girl:mixamorig:LeftHandThumb2
+      position: {x: -0.0009855296, y: 0.023173986, z: 2.9441205e-10}
+      rotation: {x: -0.037319362, y: 0.0012551857, z: 0.015403228, w: 0.99918395}
+      scale: {x: 1.0000001, y: 1.0000006, z: 1.0000004}
+    - name: D_girl:D_girl:mixamorig:LeftHandThumb4
+      parentName: D_girl:D_girl:mixamorig:LeftHandThumb3
+      position: {x: 0.00011202999, y: 0.020973977, z: -1.15442985e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: D_girl:D_girl:mixamorig:LeftHandRing1
+      parentName: D_girl:D_girl:mixamorig:LeftHand
+      position: {x: -0.008081567, y: 0.069311276, z: -0.0020838585}
+      rotation: {x: 0.031742226, y: 0.0075050863, z: 0.0068057417, w: 0.9994447}
+      scale: {x: 0.99999994, y: 1.0000005, z: 1.0000002}
+    - name: D_girl:D_girl:mixamorig:LeftHandRing2
+      parentName: D_girl:D_girl:mixamorig:LeftHandRing1
+      position: {x: -0.0000019871468, y: 0.02122716, z: 1.4014576e-11}
+      rotation: {x: -0.029211693, y: -0.000000016298142, z: -0.00000012951202, w: 0.9995733}
+      scale: {x: 1.0000002, y: 1.0000005, z: 1.0000005}
+    - name: D_girl:D_girl:mixamorig:LeftHandRing3
+      parentName: D_girl:D_girl:mixamorig:LeftHandRing2
+      position: {x: -0.0000005830366, y: 0.020000974, z: -1.8288267e-10}
+      rotation: {x: 0.03998904, y: 0.0000021125315, z: -0.00003812337, w: -0.9992001}
+      scale: {x: 0.9999998, y: 0.99999946, z: 0.9999996}
+    - name: D_girl:D_girl:mixamorig:LeftHandRing4
+      parentName: D_girl:D_girl:mixamorig:LeftHandRing3
+      position: {x: 0.0000025706468, y: 0.018338647, z: -2.4202204e-10}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: D_girl:D_girl:mixamorig:LeftHandPinky1
+      parentName: D_girl:D_girl:mixamorig:LeftHand
+      position: {x: -0.021783205, y: 0.062189788, z: -0.00056754635}
+      rotation: {x: 0.030636042, y: 0.016508024, z: 0.0034642247, w: 0.99938834}
+      scale: {x: 0.99999994, y: 1.0000006, z: 1.0000006}
+    - name: D_girl:D_girl:mixamorig:LeftHandPinky2
+      parentName: D_girl:D_girl:mixamorig:LeftHandPinky1
+      position: {x: -0.000019842453, y: 0.01963276, z: 2.0773935e-10}
+      rotation: {x: -0.015982416, y: -0.00000019371505, z: 0.00000006053595, w: 0.99987227}
+      scale: {x: 1, y: 0.99999994, z: 0.9999998}
+    - name: D_girl:D_girl:mixamorig:LeftHandPinky3
+      parentName: D_girl:D_girl:mixamorig:LeftHandPinky2
+      position: {x: -0.0000043828472, y: 0.016453885, z: 2.678238e-11}
+      rotation: {x: 0.03756986, y: 0.000055870936, z: -0.0006428306, w: -0.9992939}
+      scale: {x: 1, y: 1.0000006, z: 1.0000005}
+    - name: D_girl:D_girl:mixamorig:LeftHandPinky4
+      parentName: D_girl:D_girl:mixamorig:LeftHandPinky3
+      position: {x: 0.000024225543, y: 0.015129515, z: 3.209554e-10}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: D_girl:D_girl:mixamorig:RightUpLeg
+      parentName: D_girl:D_girl:mixamorig:Hips
+      position: {x: 0.049703453, y: -0.036353223, z: 0.00928502}
+      rotation: {x: 0.0000037648124, y: 0.0058335066, z: -0.99998283, w: 0.00064048363}
+      scale: {x: 0.9999996, y: 1.0000008, z: 1.000001}
+    - name: D_girl:D_girl:mixamorig:RightLeg
+      parentName: D_girl:D_girl:mixamorig:RightUpLeg
+      position: {x: -8.124062e-12, y: 0.29458642, z: -1.7104688e-10}
+      rotation: {x: -0.01782167, y: 0.00032747426, z: -0.018370971, w: 0.99967235}
+      scale: {x: 1.0000001, y: 1.0000005, z: 1.0000007}
+    - name: D_girl:D_girl:mixamorig:RightFoot
+      parentName: D_girl:D_girl:mixamorig:RightLeg
+      position: {x: -2.2370211e-10, y: 0.2891933, z: -1.8600797e-10}
+      rotation: {x: 0.43848118, y: -0.040821034, z: 0.01994144, w: 0.8975914}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.000001}
+    - name: D_girl:D_girl:mixamorig:RightToeBase
+      parentName: D_girl:D_girl:mixamorig:RightFoot
+      position: {x: -5.987826e-10, y: 0.12645134, z: -0.0000000057236735}
+      rotation: {x: 0.33703297, y: 0.021431461, z: -0.007674264, w: 0.94121766}
+      scale: {x: 1, y: 1.0000004, z: 0.9999998}
+    - name: D_girl:D_girl:mixamorig:RightToe_End
+      parentName: D_girl:D_girl:mixamorig:RightToeBase
+      position: {x: 1.7700001e-11, y: 0.045813747, z: 4.605583e-14}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: D_girl:D_girl:mixamorig:LeftUpLeg
+      parentName: D_girl:D_girl:mixamorig:Hips
+      position: {x: -0.049703453, y: -0.036353223, z: 0.0047407467}
+      rotation: {x: 0.0000064826268, y: -0.010096968, z: -0.99994886, w: -0.00064036343}
+      scale: {x: 0.99999994, y: 1.0000006, z: 1.0000006}
+    - name: D_girl:D_girl:mixamorig:LeftLeg
+      parentName: D_girl:D_girl:mixamorig:LeftUpLeg
+      position: {x: -2.0460222e-11, y: 0.2946264, z: -4.287548e-11}
+      rotation: {x: -0.041600585, y: -0.0007659292, z: 0.018392712, w: 0.9989648}
+      scale: {x: 1.0000001, y: 1.0000012, z: 1.0000013}
+    - name: D_girl:D_girl:mixamorig:LeftFoot
+      parentName: D_girl:D_girl:mixamorig:LeftLeg
+      position: {x: -3.6759032e-10, y: 0.28944495, z: -8.632286e-10}
+      rotation: {x: 0.44141144, y: 0.0414862, z: -0.020435495, w: 0.8961124}
+      scale: {x: 1.0000005, y: 0.99999994, z: 1.0000008}
+    - name: D_girl:D_girl:mixamorig:LeftToeBase
+      parentName: D_girl:D_girl:mixamorig:LeftFoot
+      position: {x: -5.903478e-10, y: 0.12512909, z: 0.0000000011284953}
+      rotation: {x: 0.3412357, y: -0.021075029, z: 0.007653007, w: 0.9397103}
+      scale: {x: 1, y: 0.9999997, z: 0.9999996}
+    - name: D_girl:D_girl:mixamorig:LeftToe_End
+      parentName: D_girl:D_girl:mixamorig:LeftToeBase
+      position: {x: -3.7544655e-11, y: 0.045394246, z: -9.930341e-12}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 6.5
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
