@@ -7,11 +7,11 @@ public class UIManager : MonoBehaviour
 {
     [SerializeField] GameObject gameOverUIPanel;
     [SerializeField] GameObject inGameUIPanel;
-    [SerializeField] GameObject mainMenuUIPanel;
+    public GameObject mainMenuUIPanel;
     [SerializeField] TextMeshProUGUI _gCurrentScoreText;
     [SerializeField] TextMeshProUGUI _gBestScoreText;
     [SerializeField] GameObject _gBg;
-
+    [HideInInspector] public GameObject fadeInOutBg;
     
 
     public void ShowGameOverUI()
@@ -25,11 +25,11 @@ public class UIManager : MonoBehaviour
 
     private void SetScoreOnGameOver()
     {
-        int _bestScore = 0;
+        int _bestScore = PlayerPrefs.GetInt("BestScore",0);
 
         _gCurrentScoreText.text = "Score: "+ GameManager.Instance.currentScore;
 
-        if(GameManager.Instance.currentScore >= GameManager.Instance.bestScore)
+        if(GameManager.Instance.currentScore >= _bestScore)
         {
             _bestScore = GameManager.Instance.currentScore;
             PlayerPrefs.SetInt("BestScore", _bestScore);
@@ -39,6 +39,7 @@ public class UIManager : MonoBehaviour
 
     public void ShowInGameUI()
     {
+        Invoke("DisableFadeImage", 0.5f);
         _gBg.SetActive(false);
         mainMenuUIPanel.SetActive(false);
         inGameUIPanel.SetActive(true);
@@ -48,5 +49,10 @@ public class UIManager : MonoBehaviour
     {
         mainMenuUIPanel.SetActive(true);
         _gBg.SetActive(true);
+    }
+
+    private void DisableFadeImage()
+    {
+        fadeInOutBg.SetActive(false);
     }
 }

@@ -28,6 +28,7 @@ public class PlayerCollisions : MonoBehaviour
 
                 showIcons.ActivateIcons(nextCollectableIndex - 1 );
 
+                SoundManager.Instance.PlayGoodCollect();
 
                 if(nextCollectableIndex >= 5)
                 {
@@ -42,6 +43,7 @@ public class PlayerCollisions : MonoBehaviour
 
         if(other.gameObject.CompareTag("NotCollect"))
         {
+            SoundManager.Instance.PlayBadCollect();
             other.gameObject.SetActive(false);
             energyFillBar.WrongAnswer();
             Debug.LogWarning("Danger Touch ");

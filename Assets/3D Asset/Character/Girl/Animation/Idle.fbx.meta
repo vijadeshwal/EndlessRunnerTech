@@ -3,7 +3,12 @@ guid: 0bdee5622688a2b439dfa9fd6b4d6f1c
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D_girl_D_girl_Girl2
+    second: {fileID: 2100000, guid: 71ad79bca2ab7734da85cc55225f014a, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -19,10 +24,7 @@ ModelImporter:
     rigImportErrors: 
     rigImportWarnings: 
     animationImportErrors: 
-    animationImportWarnings: "\nClip 'mixamo.com' has import animation warnings that
-      might lower retargeting quality:\nNote: Activate translation DOF on avatar
-      to improve retargeting quality.\n\t'D_girl:D_girl:mixamorig:HeadTop_End' is
-      inbetween humanoid transforms and has rotation animation that will be discarded.\n"
+    animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0

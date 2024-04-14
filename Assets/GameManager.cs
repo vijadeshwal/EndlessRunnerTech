@@ -16,10 +16,13 @@ public class GameManager : MonoBehaviour
     public bool isGameOver = false;
     [SerializeField]
     private float currentGameSpeed = 1.0f; // Current game speed
-    private float maxGameSpeed = 1.5f; // Maximum game speed
+    private float maxGameSpeed = 1.35f; // Maximum game speed
     private float speedIncreaseRate = 0.01f; // Rate at which game speed increases per second
 
     [SerializeField] TextMeshProUGUI _scoreText;
+    [SerializeField] GameObject _mainGirl, _idleGirl;
+     
+    CameraManager _camManager;
 
     private void Awake()
     {
@@ -35,12 +38,23 @@ public class GameManager : MonoBehaviour
 
         _UIManager = GetComponent<UIManager>();
         Time.timeScale = 1f;
+        _camManager = GetComponent<CameraManager>();
     }
 
     private void Start()
     {
-        
-        bestScore = PlayerPrefs.GetInt("BestScore", 0); ;
+        bestScore = PlayerPrefs.GetInt("BestScore", 0); 
+        _idleGirl.SetActive(true);
+        _mainGirl.SetActive(false);
+
+        if(RestartChecker.Instance != null)
+        {
+            if(RestartChecker.Instance.isRestart)
+            {
+                _UIManager.mainMenuUIPanel.SetActive(false);
+                Invoke("StartGame", 0.2f);
+            }
+        }
     }
 
     private void Update()
@@ -55,6 +69,11 @@ public class GameManager : MonoBehaviour
 
     public void StartGame()
     {
+        Time.timeScale = 1f;
+        _UIManager.fadeInOutBg.SetActive(true);
+        _idleGirl.SetActive(false);
+        _mainGirl.SetActive(true);
+        _camManager.ActivateMainCamera();
         StartGameSpeedIncrease(); // Start increasing game speed
         _UIManager.ShowInGameUI();
         _playerAnimator.SetTrigger("Run");
@@ -84,10 +103,18 @@ public class GameManager : MonoBehaviour
         isGameOver = true;
         StopGameSpeedIncrease(); // Stop increasing game speed
         _UIManager.ShowGameOverUI();
+        SoundManager.Instance.PlayGameOver();
     }
 
     public void RestartGame()
     {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        RestartChecker.Instance.isRestart = true;
+    }
+
+    public void LoadMainMenu()
+    {
+        RestartChecker.Instance.isRestart = false;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
