@@ -13556,7 +13556,7 @@ MonoBehaviour:
     min: {x: -6.301708, y: -0.85757875, z: -15.600793}
     size: {x: 13.777682, y: 8.293286, z: 42.773136}
   builders: []
-  unpacked: 1
+  unpacked: 0
   alwaysDraw: 0
   drawGeneratedSpline: 1
   drawGeneratedSamples: 1
@@ -13564,7 +13564,7 @@ MonoBehaviour:
   drawEntranceAndExit: 1
   drawBounds: 1
   drawCustomPaths: 1
-  editorChildCount: 327
+  editorChildCount: 328
 --- !u!1 &2255892287998006764
 GameObject:
   m_ObjectHideFlags: 0
@@ -19788,7 +19788,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 127
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2884140823167803798
 Transform:
   m_ObjectHideFlags: 0

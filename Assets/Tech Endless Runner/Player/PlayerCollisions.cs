@@ -5,9 +5,10 @@ public class PlayerCollisions : MonoBehaviour
     private Animator playerAnim;
 
     private int nextCollectableIndex = 0;
-    [SerializeField] EnergyFillBar energyFillBar;
+    //[SerializeField] EnergyFillBar energyFillBar;
     [SerializeField] CollectingShowIcons showIcons;
     private float currentEnergy = 0f;
+    [SerializeField] Timer _timer;
 
    
 
@@ -45,7 +46,8 @@ public class PlayerCollisions : MonoBehaviour
         {
             SoundManager.Instance.PlayBadCollect();
             other.gameObject.SetActive(false);
-            energyFillBar.WrongAnswer();
+            //energyFillBar.WrongAnswer();
+            _timer.DecreaseTimer();
             Debug.LogWarning("Danger Touch ");
         }
 
@@ -54,10 +56,9 @@ public class PlayerCollisions : MonoBehaviour
     public void IncreaseEnergy()
     {
         Debug.Log("3");
-        energyFillBar.RightAnswer();
+       // energyFillBar.RightAnswer();
+       _timer.ResetTimer();
         nextCollectableIndex = 0;
         showIcons.FadeOutIcon();
     }
-
-   
 }

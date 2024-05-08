@@ -16,11 +16,12 @@ public class GameManager : MonoBehaviour
     public bool isGameOver = false;
     [SerializeField]
     private float currentGameSpeed = 1.0f; // Current game speed
-    private float maxGameSpeed = 1.35f; // Maximum game speed
-    private float speedIncreaseRate = 0.01f; // Rate at which game speed increases per second
+    private float maxGameSpeed = 2.5f; // Maximum game speed
+    private float speedIncreaseRate = 0.005f; // Rate at which game speed increases per second
 
     [SerializeField] TextMeshProUGUI _scoreText;
     [SerializeField] GameObject _mainGirl, _idleGirl;
+    [SerializeField] Timer _timer;
      
     CameraManager _camManager;
 
@@ -80,6 +81,7 @@ public class GameManager : MonoBehaviour
         PlayerMovement _player = _playerAnimator.gameObject.GetComponentInParent<PlayerMovement>();
         _player.isRunning = true;
         StartCoroutine(CountAndIncreaseScore());
+        _timer.StartTimer();
     }
 
     private IEnumerator CountAndIncreaseScore()
